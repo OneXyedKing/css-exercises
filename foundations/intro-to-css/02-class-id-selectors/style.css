@@ -1,0 +1,24 @@
+/*Odd - light red/pink background, fonts verdana dejavu sans sans-serif fallback
+second - blue text, font 36px
+third - Odd AND font 24px
+fourth - light green background, font 24px, bold*/
+
+.odd, #third {
+    background-color:rgb(252, 86, 127);
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
+
+#second {
+    color:rgb(53, 107, 255);
+    font-size:36px;
+}
+
+#third {
+    font-size:24px;
+}
+
+#fourth {
+    background-color:rgb(165, 255, 129);
+    font-size:24px;
+    font-weight:bold;
+}
