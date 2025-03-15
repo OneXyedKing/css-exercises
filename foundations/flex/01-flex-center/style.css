@@ -3,6 +3,9 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  display: flex;
+  align-items: center; /*Align center on cross axis (vertical in this case)*/
+  justify-content: center; /*Align center on main axis (horizontal in this case)*/
 }
 
 .box {
@@ -12,4 +15,5 @@
   border: 6px solid maroon;
   width: 80px;
   height: 80px;
+
 }
