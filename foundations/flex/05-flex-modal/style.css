@@ -18,9 +18,51 @@ body {
 .modal {
   background: white;
   width: 480px;
+  padding: 15px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  gap: 10px;
 }
+
+.rest-container {
+  /*border: rgb(2, 241, 34) solid 1px;*/
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/*
+.icon-container {
+  border: rgb(100, 5, 145) solid 1px;
+}
+*/
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  /*border: rgb(187, 187, 187) solid 2px;*/
+}
+
+/*
+.title-container, .close-container {
+  border: rgb(139, 10, 10) solid 1px;
+}
+*/
+.header {
+  font-weight: 900;
+  font-size: x-large;
+}
+
+
+.text {
+  /*border: rgb(3, 99, 19) solid 2px;*/
+  font-weight: 500;
+}
+/*
+.buttons-container {
+  border: rgb(5, 19, 143) solid 2px;
+}
+*/
 
 .icon {
   color: royalblue;
@@ -39,7 +81,7 @@ body {
   background: #eee;
   border-radius: 50%;
   color: #888;
-  font-weight: 400;
+  font-weight: 1000;
   font-size: 16px;
   height: 24px;
   width: 24px;
